@@ -3,3 +3,30 @@
     justify-content: center;
 
 }
+.form-container{
+    justify-content: center;
+    width: 800px;
+    border: 1px;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.09);
+    padding: 40px;
+    margin: auto;
+}
+.sidebar{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 700;
+}
+@media(min-width:700px){
+    .form-container{
+        padding: 40px;
+    }
+}

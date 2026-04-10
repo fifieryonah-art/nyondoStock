@@ -1,0 +1,12 @@
+.sidebar{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 700;
+}

@@ -13,5 +13,5 @@ def dashboard(request):
 def salesregistration(request):
     return render(request,'salesregistration.html')
 
-def stockregistration():
-    (request,'stockregistration')
+def stockregistration(request):
+    return render(request,'stockregistration.html')

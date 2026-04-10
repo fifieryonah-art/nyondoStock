@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>credit scheme-Nyondo Hardware</title>
+    <link rel="stylesheet" href="../static/credit.css">
 </head>
+
 <body>
-    
+    <div class="row">
+        <div class="col-3">
+            <div class="sidebar">
+                <img src="../static/images/nyondo logo.png" alt="Nyondo Logo" width="100" />
+                <a href="{% url 'dashboard' %}">Dashboard</a>
+                <a href="{% url 'salesregistration' %}">Sales</a>
+                <a href="{% url 'stockregistration' %}">Stock Registration</a>
+                <a href="{% url 'creditsales' %}">Credit Scheme</a>
+                <a href="{% url 'index' %}">Log Out</a>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="container">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Customer Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Example input placeholder">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label"></label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="Another input placeholder">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Example label</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Example input placeholder">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Another label</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="Another input placeholder">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label">Example label</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Example input placeholder">
+                </div>
+                <div class="mb-3">
+                    <label for="formGroupExampleInput2" class="form-label">Another label</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2"
+                        placeholder="Another input placeholder">
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>

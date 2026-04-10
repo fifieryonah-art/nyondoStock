@@ -1,0 +1,20 @@
+.container{
+    margin: 20px;
+    padding: 20px;
+    /* border: 1px solid black; */
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 0 20px 40px rgba(255, 0, 0, 0.1);
+}
+.form-control{
+    width: 50%;
+    margin-left: 30%;
+}
+form{
+    max-width: 700px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
