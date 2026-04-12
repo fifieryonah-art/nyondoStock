@@ -25,4 +25,11 @@ urlpatterns = [
     path('dashboard/', views.dashboard, name='dashboard'),
     path('salesregistration/', views.salesregistration, name='salesregistration'),
     path('stockregistration/', views.stockregistration, name='stockregistration'),
+    path('salesdashboard/', views.salesdashboard, name='salesdashboard'),
+    path('sales/', views.sales, name='sales'),
+    path('suppliers/', views.suppliers, name='suppliers'),
+    path('withdraw/', views.withdraw, name='withdraw'),
+    path('deposit/', views.deposit, name='deposit'),
+    path('customer/', views.customer, name='customer'),
+
 ]

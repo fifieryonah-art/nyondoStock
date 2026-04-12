@@ -15,3 +15,21 @@ def salesregistration(request):
 
 def stockregistration(request):
     return render(request,'stockregistration.html')
+
+def salesdashboard(request):
+    return render(request,'salesdashboard.html')
+
+def sales(request):
+    return render(request, 'sales.html')
+
+def suppliers(request):
+    return render(request, 'suppliers.html')
+
+def withdraw(request):
+    return render(request, 'withdraw.html')
+
+def deposit(request):
+    return render(request, 'deposit.html')
+
+def customer(request):
+    return render(request, 'customer.html')
